@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o comando 'switch'.</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Condições Multiplas.
+        </h1>
+    </header>
+    <div>
+        <form method="get" action="condicaoMultipla.php">
+            <label for="num">Digite um número:</label>
+            <input type="number" name="num" id="num">
+            <fieldset> <legend>Operação:</legend>
+                <input type="radio" name="operation" id="double" value="1">
+                <label for="double">Dobro</label>
+                <input type="radio" name="operation" id="cube" value="2">
+                <label for="cube">Cubo</label>
+                <input type="radio" name="operation" id="Rq" value="3">
+                <label for="Rq">Raiz quadrada</label>
+            </fieldset>
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+</body>
+</html>

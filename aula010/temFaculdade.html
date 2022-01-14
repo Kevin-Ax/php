@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de aula</title>
+    <link rel="stylesheet" href="../estilo.css">
+    <style>
+        div{
+            width: 750px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Verificação de aula.
+        </h1>
+    </header>
+    <div>
+        <form method="post" action="temFaculdade.php">
+            <fieldset><legend>Dia da semana</legend>
+                <input type="radio" name="day" id="dom" value="1">
+                <label for="dom">Domingo</label>
+                <input type="radio" name="day" id="seg" value="2">
+                <label for="seg">Segunda</label>
+                <input type="radio" name="day" id="ter" value="3">
+                <label for="ter">Terça</label>
+                <input type="radio" name="day" id="qua" value="4">
+                <label for="qua">Quarta</label>
+                <input type="radio" name="day" id="qui" value="5">
+                <label for="qui">Quinta</label>
+                <input type="radio" name="day" id="sex" value="6">
+                <label for="sex">Sexta</label>
+                <input type="radio" name="day" id="sab" value="7">
+                <label for="sab">Sábado</label>
+            </fieldset>
+            <input type="submit" value="Verificar">
+        </form>
+    </div>
+</body>
+</html>

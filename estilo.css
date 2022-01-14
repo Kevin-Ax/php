@@ -1,0 +1,23 @@
+/*Arquivo de estilo feito apenas para dar estética aos teste feitos.*/
+body{
+    background-color: gold;
+    color: white
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin: auto;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    width: 550px;
+}

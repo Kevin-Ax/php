@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php com css</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Personalização de texto
+        </h1>
+    </header>
+    <div>
+        <form method="get" action="personalizacao.php">
+            <label for="text">Texto</label> 
+            <input type="text" name="text" id="text">
+            <br>
+            <label for="tam">Tamanho</label>
+            <select name="tam" id="tam">
+                <option value="10pt">10</option>
+                <option value="20pt">20</option>
+                <option value="30pt">30</option>
+                <option value="40pt">40</option>
+                <option value="50pt">50</option>
+            </select>
+            <br>
+            <label for="color">Cor</label>
+            <input type="color" name="color" id="color">
+            <br>
+            <input type="submit" value="Personalizar">
+        </form>
+    </div>
+</body>
+</html>
